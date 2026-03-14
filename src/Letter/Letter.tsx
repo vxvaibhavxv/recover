@@ -133,6 +133,7 @@ export default function Letter() {
               onClick={() => {
                 const audio = audioRef.current;
                 audio.loop = true;
+                audio.currentTime = 148;
 
                 audio
                   .play()
