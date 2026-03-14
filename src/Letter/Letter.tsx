@@ -67,7 +67,7 @@ export default function Letter() {
   const [open, setOpen] = useState<boolean>(false);
 
   return (
-    <div className="flex h-screen flex-col items-center justify-center gap-10 bg-pink-50">
+    <div className="flex h-dvh flex-col items-center justify-center gap-10 bg-pink-50">
       <div className="relative w-100 h-40 flex justify-center">
         <AnimatePresence>
           {!open && (
