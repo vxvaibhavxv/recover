@@ -134,9 +134,9 @@ export default function Letter() {
                 const audio = audioRef.current;
                 audio.loop = true;
 
-                // audio
-                //   .play()
-                //   .catch((error) => console.error("playback failed:", error));
+                audio
+                  .play()
+                  .catch((error) => console.error("playback failed:", error));
 
                 setOpen(true);
               }}
