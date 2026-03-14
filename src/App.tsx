@@ -1,11 +1,10 @@
+import useImagePreloader from "./hooks/useImagePreLoader";
 import Letter from "./Letter/Letter";
 
 function App() {
-  return (
-    <div>
-      <Letter />
-    </div>
-  );
+  useImagePreloader();
+
+  return <Letter />;
 }
 
 export default App;

@@ -81,7 +81,7 @@ export default function Letter() {
         </AnimatePresence>
         <motion.div
           initial={{ width: 200, height: 80 }}
-          animate={{ width: open ? 320 : 200, height: open ? 425 : 80 }}
+          animate={{ width: open ? 320 : 200, height: open ? 375 : 80 }}
           transition={{ duration: 0.5, delay: 0.5 }}
           className="absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 bg-white z-20"
         >
@@ -105,7 +105,7 @@ export default function Letter() {
                   Vese toh main yeh sab kehta rahta hu but I wanted to find new
                   ways to say <span className="font-medium">I LOVE YOU ❤️</span>
                 </p>
-                <img src={Lily} className="w-45 mx-auto" />
+                <img src={Lily} className="w-30 mx-auto" />
               </motion.div>
             )}
           </AnimatePresence>
